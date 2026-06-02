@@ -1,0 +1,174 @@
+{
+  "id": "coding-bundle",
+  "subtitle": "I create applications that balance performance, usability, and scalability. By leveraging modern technologies like React, Node.js, MongoDB, Laravel, PHP, and Flutter, I turn complex problems into smooth, intuitive experiences for users.",
+  "badge": "Fullstack Developer</>",
+  "gradient": "from-green-400 via-cyan-400 to-blue-500",
+  "buttonColor": "from-green-500 to-cyan-500",
+  "image": "/sunil.png",
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "AOF Engineering Systems Pvt. Ltd.",
+      "location": "Hyderabad, India",
+      "duration": "Oct 2025 - Present",
+      "description": [
+        "Developing and maintaining full-stack web and mobile applications, handling both frontend UI and backend services.",
+        "Building and integrating scalable APIs, databases, and responsive user interfaces.",
+        "Delivering end-to-end features from requirement analysis to deployment and maintenance."
+      ],
+      "icon": "💻"
+    },
+    {
+      "title": "Junior Developer",
+      "company": "Sanvima Solutions Pvt. Ltd.",
+      "location": "Hyderabad, India",
+      "duration": "Jul 2025 - Sep 2025",
+      "description": [
+        "Worked on 4 live client projects, developing and maintaining full-stack web and mobile applications.",
+        "Collaborated closely with cross-functional teams to deliver production-ready features and enhancements.",
+        "Handled end-to-end development tasks, from requirements understanding to deployment and ongoing support."
+      ],
+      "icon": "💻"
+    },
+    {
+      "title": "Fullstack Developer",
+      "company": "Zidio Development",
+      "location": "Bangalore, India",
+      "duration": "Apr 2025 - Jul 2025",
+      "description": [
+        "Developing and maintaining full-stack web and mobile applications, handling both frontend UI and backend services.",
+        "Building and integrating scalable APIs, databases, and responsive user interfaces.",
+        "Delivering end-to-end features from requirement analysis to deployment and maintenance."
+      ],
+      "icon": "💻"
+    }
+  ],
+  "education": [
+    {
+      "location": "Bhubaneswar, Odisha",
+      "duration": "2022 - 2024",
+      "title": "MCA - Master of Computer Applications",
+      "icon": "🎓"
+    },
+    {
+      "location": "Jajpur, Odisha",
+      "duration": "2019 - 2022",
+      "title": "BSc - Bachelor of Science",
+      "icon": "🎓"
+    }
+  ],
+  "techIcons": [
+    {
+      "name": "Node",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nodejs/nodejs-original.svg",
+      "size": "large",
+      "angle": 0,
+      "tooltipColor": "#339933"
+    },
+    {
+      "name": "Express",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/express/express-original.svg",
+      "size": "large",
+      "angle": 36,
+      "tooltipColor": "#000000"
+    },
+    {
+      "name": "MongoDB",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/mongodb/mongodb-original.svg",
+      "size": "large",
+      "angle": 72,
+      "tooltipColor": "#47A248"
+    },
+    {
+      "name": "Flutter",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/flutter/flutter-original.svg",
+      "size": "large",
+      "angle": 108,
+      "tooltipColor": "#0081CB"
+    },
+     {
+      "name": "PHP",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/php/php-original.svg",
+      "size": "large",
+      "angle": 144,
+      "tooltipColor": "#777BB4"
+    },
+     {
+      "name": "Laravel",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/laravel/laravel-original.svg",
+      "size": "large",
+      "angle": 180,
+      "tooltipColor": "#FF2D20"
+    },
+    {
+      "name": "Redux",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      "size": "large",
+      "angle": 216,
+      "tooltipColor": "#764ABC"
+    },
+    {
+      "name": "Axios",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/axios/axios-plain.svg",
+      "size": "large",
+      "angle": 252,
+      "tooltipColor": "#5A29E4"
+    },
+    {
+      "name": "Material UI",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+      "size": "large",
+      "angle": 288,
+      "tooltipColor": "#0081CB"
+    },
+    {
+      "name": "Next.js",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg",
+      "size": "large",
+      "angle": 324,
+      "tooltipColor": "#000000"
+    },
+    {
+      "name": "HTML",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "size": "small",
+      "angle": 0,
+      "tooltipColor": "#E34F26"
+    },
+    {
+      "name": "CSS",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "size": "small",
+      "angle": 60,
+      "tooltipColor": "#1572B6"
+    },
+    {
+      "name": "JavaScript",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "size": "small",
+      "angle": 120,
+      "tooltipColor": "#F7DF1E"
+    },
+    {
+      "name": "React",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "size": "small",
+      "angle": 180,
+      "tooltipColor": "#61DAFB"
+    },
+    {
+      "name": "Tailwind CSS",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
+      "size": "small",
+      "angle": 240,
+      "tooltipColor": "#38B2AC"
+    },
+    {
+      "name": "TypeScript",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "size": "small",
+      "angle": 300,
+      "tooltipColor": "#3178C6"
+    }
+  ]
+}
