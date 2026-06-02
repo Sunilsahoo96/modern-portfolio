@@ -168,12 +168,12 @@ Upload the generated `dist` folder to Netlify.
 
 ---
 
-## 📸 Screenshots
+## 📸 Images
 
-Add screenshots of your portfolio here:
+Add screenshots of your projects here:
 
 ```text
-screenshots/
+public/
 ├── home.png
 ├── about.png
 ├── projects.png
@@ -215,10 +215,10 @@ git push origin feature/new-feature
 
 Full Stack Developer (MERN)
 
-* Portfolio: https://your-portfolio-url.com
-* GitHub: https://github.com/your-github
-* LinkedIn: https://linkedin.com/in/your-profile
-* Email: [your-email@example.com](mailto:your-email@example.com)
+* Portfolio: https://sunil-devfolio.netlify.app/
+* GitHub: https://github.com/Sunilsahoo96/
+* LinkedIn: https://linkedin.com/in/sunil-sahoo96/
+* Email: [sunilsahoo5075@gmail.com](mailto:sunilsahoo5075@gmail.com)
 
 ---
 
