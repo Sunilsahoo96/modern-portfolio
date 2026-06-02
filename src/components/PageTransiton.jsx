@@ -39,7 +39,7 @@ const PageTransition = ({ children }) => {
     >
       {/* Global hover background effect */}
       <motion.div
-        className="pointer-events-none fixed top-0 left-0 w-[420px] h-[420px] rounded-full blur-3xl opacity-20 fixed inset-0 z-[1]"
+        className="pointer-events-none fixed top-0 left-0 w-105 h-105 rounded-full blur-3xl opacity-20 fixed inset-0 z-1"
         animate={{
           x: mousePos.x - 210,
           y: mousePos.y - 210,

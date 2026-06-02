@@ -5,7 +5,6 @@ import {
   AboutSection,
   SkillsSection,
   WorkSection,
-  FAQSection,
   ContactSection,
   Footer,
 } from "./components/index";
@@ -20,7 +19,6 @@ function App() {
         <AboutSection />
         <SkillsSection />
         <WorkSection />
-        {/* <FAQSection /> */}
         <ContactSection />
         <Footer />
       </PageTransition>
