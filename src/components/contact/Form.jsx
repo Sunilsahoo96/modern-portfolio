@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 function Form({ itemVariants }) {
   const { themeColors } = useSelector((state) => state.themeReducer);
   const form = useRef();
-  const [status, setStatus] = useState(null); // null, 'success', or 'error'
+  const [status, setStatus] = useState(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const inputValue = [
@@ -21,9 +21,10 @@ function Form({ itemVariants }) {
     setIsSubmitting(true);
     setStatus(null);
 
-    const serviceId = "service_wc51kgo";
-    const templateId = "template_jdradnr";
-    const publicKey = "GInAA8dk-Tyo5F-h4";
+    const serviceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+    const confirmationTemplateId = import.meta.env.VITE_EMAIL_CONFIRMATION_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
 
     const templateParams = {
       title: form.current.title?.value || "",
@@ -31,10 +32,15 @@ function Form({ itemVariants }) {
       email: form.current.email?.value || "",
       subject: form.current.subject?.value || "",
       message: form.current.message?.value || "",
+      time: new Date().toLocaleString(),
     };
 
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
+      .then(() => {
+        // Send confirmation email to the user
+        return emailjs.send(serviceId, confirmationTemplateId, templateParams, publicKey);
+      })
       .then(() => {
         setStatus("success");
         setIsSubmitting(false);
@@ -47,7 +53,6 @@ function Form({ itemVariants }) {
       });
   };
 
-  // Status message component
   const StatusMessage = () => {
     if (!status) return null;
 

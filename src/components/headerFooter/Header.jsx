@@ -15,6 +15,7 @@ import {
   setCustomTheme,
 } from "../../reducers/themeReducer";
 import { motion, AnimatePresence } from "framer-motion";
+import VisitCounter from "./VisitCounter";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -126,7 +127,8 @@ const Header = () => {
           ))}
         </nav>
         {/* Action Buttons */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 sm:gap-4">
+          <VisitCounter />
           <a href="/Sunil_new_resume.pdf" target="_blank" rel="noopener noreferrer">
             <button
               className="hidden md:flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-white hover:shadow-lg transition-all duration-300 cursor-pointer"

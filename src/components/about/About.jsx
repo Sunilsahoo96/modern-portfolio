@@ -11,7 +11,7 @@ function AboutSection() {
   return (
     <section
       className="py-16 px-6 md:px-10 lg:px-16"
-      style={{ backgroundColor: themeColors.bg }}
+      style={{ backgroundColor: "transparent" }}
       id="about"
     >
       <div className="max-w-6xl mx-auto">

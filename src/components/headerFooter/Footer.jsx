@@ -20,7 +20,7 @@ const Footer = () => {
       ref={containerRef}
       className="relative overflow-hidden"
       style={{
-        backgroundColor: themeColors.bg,
+        backgroundColor: "transparent",
         backdropFilter: "blur(12px)",
         WebkitBackdropFilter: "blur(12px)",
         borderTop: `1px solid ${themeColors.borderLight}`,

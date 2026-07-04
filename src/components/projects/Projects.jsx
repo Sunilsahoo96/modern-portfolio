@@ -137,7 +137,7 @@ const ProjectTimeline = () => {
     <section
       id="projects"
       className="relative py-20 overflow-hidden"
-      style={{ backgroundColor: themeColors.bg }}
+      style={{ backgroundColor: "transparent" }}
     >
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

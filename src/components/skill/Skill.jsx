@@ -249,7 +249,7 @@ ai: {
   return (
     <section
       className="py-28 px-4 sm:px-8 lg:px-12 relative overflow-hidden"
-      style={{ backgroundColor: themeColors.bg }}
+      style={{ backgroundColor: "transparent" }}
       id="skills"
     >
       <div className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">

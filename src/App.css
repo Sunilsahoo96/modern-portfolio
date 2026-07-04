@@ -107,3 +107,12 @@
     text-align: center;
   }
 }
+
+/* --- Custom Cursor System --- */
+@media (pointer: fine) {
+  /* Hide the standard browser cursor cleanly when custom cursor is active */
+  .custom-cursor-enabled,
+  .custom-cursor-enabled * {
+    cursor: none !important;
+  }
+}

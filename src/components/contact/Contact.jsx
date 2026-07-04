@@ -34,7 +34,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      style={{ backgroundColor: themeColors.bg }}
+      style={{ backgroundColor: "transparent" }}
       className="overflow-hidden"
     >
       <div className="max-w-screen-xl mx-auto px-4 py-24">
